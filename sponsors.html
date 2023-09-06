@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Partners and Sponsors</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <img
+          src="images/DITU-PRIMARY-LOGO-1-png.png"
+        />
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutUs.html">ABOUT</a></li>
+            <li><a href="program.html">PROGRAM</a></li>
+            <li><a href="registration.html">REGISTRATION</a></li>
+            <li><a href="sponsors.html">SPONSORS AND PARTNERS</a></li>
+            <li><a href="contactUs.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Partners and Sponsors</h1>
+        <hr />
+      </div>
+    </section>
+    <section class="sponsors">
+		<h1>Partners and Sponsors</h1>
+		Coming Soon
+	</section>
+
+    <section class="footer">
+      <h4>Contact Us</h4>
+      <p>
+        DIT UNIVERSITY <br />
+        Mussoorie, Diversion Road, Makka Wala, Uttarakhand 248009
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook"
+          ><a href="https://www.facebook.com/DITUniversity.edu/"></a
+        ></i>
+        <i class="fab fa-twitter"><a href=""></a></i>
+        <i class="fab fa-linkedin"
+          ><a href="https://in.linkedin.com/school/dit-university/"></a
+        ></i>
+      </div>
+    </section>
+
+    <!-- Javascript for Toggle Menu -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
