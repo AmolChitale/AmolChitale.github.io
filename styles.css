@@ -79,13 +79,23 @@
     text-align: center;
   }
   .text-box h1 {
-    font-size:3.5rem;
+    font-size:2.5rem;
   }
+
+  .text-box div{
+    padding: 10px;
+  }
+
+  .text-box div h3{
+    font-size: 1.3rem;
+  }
+
   .text-box p {
     margin: 10px 0 40px;
     font-size: 1.3rem;
     color: #fff;
     line-height: 28px;
+    font-weight: bold;
   }
   .hero-btn {
     display: inline-block;
@@ -113,15 +123,24 @@
       min-height: 100vh;
     }
     .text-box h1 {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
 
     .text-box h2{
-      font-size: 1rem;
+      font-size: 1.5rem;
       padding-bottom: 5px;
     }
+
+    .text-box div{
+      padding: 15px;
+    }
+
+    .text-box div h3{
+      font-size: 1rem;
+    }
+
     .text-box p{
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
     .nav-links ul li {
       display: block;
