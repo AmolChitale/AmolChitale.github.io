@@ -314,6 +314,19 @@
     margin: auto;
     padding: 0px 30px;
   }
+
+  .footer .footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer .footer-flex img{
+    max-width: 20%;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+  }
   
   .footer h4 {
     margin-bottom: 25px;
@@ -328,6 +341,12 @@
   }
   .fa-heart {
     color: #f44336;
+  }
+
+  @media (max-width:800px) {
+    .footer .footer-flex img{
+      max-height: 30px;
+    }
   }
   
   
