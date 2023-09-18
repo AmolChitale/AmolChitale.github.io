@@ -1,0 +1,166 @@
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Program</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <div class="logo">
+          <img style="padding: 10px;"
+          src="images/DITU-PRIMARY-LOGO-1-png.png"
+          />
+          <img class="img-converge" 
+          src="images/logo.png"
+          />
+        </div>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutUs.html">ABOUT</a></li>
+            <li><a href="key_dates_and_program.html">KEY DATES AND PROGRAM</a></li>
+            <li><a href="registration.html">REGISTRATION</a></li>
+            <li><a href="sponsors.html">SPONSORS AND PARTNERS</a></li>
+            <li><a href="contactUs.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+
+      <div class="text-box">
+        <h1>Key Dates & Program</h1>
+        <hr />
+      </div>
+    </section>
+    <section class="program">
+      <h1>Key Dates & Program</h1>
+      <br />
+      <br />
+      <div>
+        <h3>Key Dates</h3>
+        <br />
+        <ul style="list-style: disc;">
+          <li><b>19 Sep 2023</b>: Call for Abstracts Open </li>
+          <li><b>16 Oct 2023</b>: Abstract Submission Deadline </li>
+          <li><b>06 Nov 2023</b>: Abstract Acceptance Notification</li>
+          <li><b>18 Dec 2023</b>: Paper Submission Deadline</li>
+          <li><b>15 Jan 2024</b>: Paper acceptance, Registration Date</li>
+          <li><b>05 Feb 2024</b>: Final Paper Submission</li>
+          <li><b>18 Apr 2023</b>: Conference Begins</li>
+        </ul>
+
+        <br />
+        <br />
+        <h3>General guidelines</h3>
+        <ul>
+          <li>
+            Author(s) must ensure that the submitted paper is their original
+            work, which has not been previously published.
+          </li>
+          <li>
+            All papers will be reviewed by the International Scientific
+            Committee as per the Advisory Board.
+          </li>
+          <li>
+            By submitting an abstract author(s) agree that if their paper is
+            selected, at least one of the authors will attend the conference.
+          </li>
+          <li>
+            All submitted papers are subject to Double Blind Peer Review
+            process. Authors should not write their names in the final
+            manuscript uploaded contribution.
+          </li>
+          <li>
+            Submissions requiring corrections in response to comments by the
+            technical reviewers must be corrected before the final upload.
+          </li>
+          <li>
+            All submissions must follow the template formats provided and
+            submit the manuscript via online mode only (i.e. Microsoft
+            Conference Management Toolkit).
+          </li>
+          <li>
+            Authors may submit more than one paper as the first author and
+            participate as a co-author on a number of extended abstracts
+          </li>
+          <li>
+            One registration only allows for one paper to be presented and
+            each paper requires a separate registration to be included
+          </li>
+          <li>
+            Select papers may be compiled in a book form with an ISBN number
+            or indexed with Springer/T&F (based upon the quality and approval)
+          </li>
+        </ul>
+        <br />
+        <br />
+        <h3>Gala Dinner</h3>
+        <p>( to be announced)</p>
+        <br />
+        <br />
+        <h3>Key note speakers</h3>
+        <p>( to be announced)</p>
+        <br />
+        <br />
+        <h3>Conference Program</h3>
+        <br />
+        <img src="images/Tentative-schedule.png" alt="table" />
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer-flex">
+        <img src="./images/g20.jpg" alt="G20 LOGO">
+        <img src="/images/NAAC_logo.png" alt="NAAC Logo">
+        <img src="/images/25_years.jpg" alt="Jublee logo">
+        <img src="/images/IIA_logo.png" alt="IIA LOGO">
+        <img src="/images/Council_of_Architecture_logo.jpg" alt="COA LOGO">
+        <img src="/images/IGBC_icon.jpeg" alt="IGBC Logo">
+      </div>
+      <h4>Reach Out</h4>
+      <p>
+        DIT UNIVERSITY <br />
+        Mussoorie, Diversion Road, Makka Wala, Uttarakhand 248009
+      </p>
+      <div class="icons">
+        <a href="https://www.facebook.com/DITUniversity.edu/"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/dit_university"><i class="fab fa-twitter"></i></a>
+        <a href="https://in.linkedin.com/school/dit-university/"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </section>
+
+
+    <!-- Javascript for Toggle Menu -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
