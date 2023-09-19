@@ -59,6 +59,8 @@ nav .logo img {
   list-style: none;
   display: inline-block;
   position: relative;
+  margin-left: 0;
+  padding: 10px;
 }
 .nav-links ul li a {
   color: #fff;
@@ -117,12 +119,13 @@ nav .logo img {
 }
 
 .text-box p {
-  margin: 10px 0 40px;
   font-size: 1.3rem;
   color: #fff;
-  line-height: 28px;
-  font-weight: bold;
 }
+.text-box p i{
+  font-size: 0.95rem;
+}
+
 .hero-btn {
   display: inline-block;
   text-decoration: none;
@@ -231,10 +234,15 @@ nav .fa {
 .facilities {
   width: 80%;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 40px;
 }
 .facilities p {
   font-size: 18px;
+}
+
+.facilities h1{
+  font-size: 1.75rem;
+  padding-bottom: 30px;
 }
 
 li {
@@ -273,25 +281,26 @@ li {
   width: 80%;
   margin: auto;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 50px;
+  font-size: 18px;
 }
 .technical-committee {
   width: 80%;
   margin: auto;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 .organising-committee {
   width: 80%;
   margin: auto;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 .past-conference {
   width: 80%;
   margin: auto;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 .col-flex {
   display: flex;
@@ -443,10 +452,11 @@ li {
   width: 80%;
   margin: auto;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 30px;
 }
-.program h4 {
-  font-size: 1.2rem;
+.program h3 {
+  font-size: 1.75rem;
+  padding-bottom: 10px;
 }
 .program img {
   height: auto;
@@ -465,8 +475,16 @@ li {
   width: 80%;
   margin: auto;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 30px;
 }
+
+.registration h2{
+  font-size: 1.75rem;
+  padding-bottom: 10px;
+}
+
+
+
 table,
 th,
 td {
@@ -508,5 +526,23 @@ td {
     height: 80%;
   }
 }
+
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: rgba(95, 85, 85, 0.748);
+}
+
+body::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: #3836363e;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: #ff0000;
+}
+
 
 
