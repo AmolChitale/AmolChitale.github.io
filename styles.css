@@ -126,6 +126,13 @@ nav .logo img {
   font-size: 0.95rem;
 }
 
+.text-box p .br{
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 24%;
+}
+
 .hero-btn {
   display: inline-block;
   text-decoration: none;
@@ -226,9 +233,7 @@ nav .fa {
   }
 }
 
-/*----- course -----*/
 
-/*----- campus -----*/
 
 /*------- facilities ---------*/
 .facilities {
@@ -396,8 +401,14 @@ li {
   width: 80%;
   margin: auto;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 30px;
 }
+
+.aboutus h2{
+  font-size: 1.75rem;
+  padding-bottom: 20px;
+}
+
 .aboutus iframe {
   width: 100%;
 }
@@ -422,6 +433,8 @@ li {
   padding-top: 80px;
   padding-bottom: 50px;
 }
+
+
 .about-col {
   flex-basis: 48%;
   padding: 30px 2px;
@@ -483,6 +496,23 @@ li {
   padding-bottom: 10px;
 }
 
+/* sponsors page */
+
+.sponsors{
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.sponsors h1{
+  font-size: 1.75rem;
+  padding-bottom: 20px;
+}
+
+.sponsors p{
+  font-size: 1rem;
+}
 
 
 table,
@@ -500,7 +530,7 @@ td {
   margin: auto;
   justify-content: center;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 .contact iframe,
 .program iframe {
@@ -512,7 +542,16 @@ td {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
+ 
+.social-media ul li{
+  font-size: 1rem;
+  list-style: none;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
 .contact img {
   width: 40px;
 }
