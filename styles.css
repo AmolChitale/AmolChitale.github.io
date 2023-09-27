@@ -342,6 +342,8 @@ li {
   border-radius: 10px;
   text-align: center;
   padding: 100px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .cta h1 {
@@ -518,6 +520,11 @@ li {
 
 .sponsors p{
   font-size: 1rem;
+}
+
+.registration-fee-img img{
+  width: 100%;
+  height: auto;
 }
 
 
