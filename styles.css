@@ -1,9 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 * {
   margin: 0;
   padding: 0;
   font-family: "poppins", sans-serif;
   /* overflow-x: hidden; */
 }
+
+.popup{
+  font-family: 'Open Sans', sans-serif;
+  background: rgba(236, 249, 0, 0.675);
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  max-width: 400px;
+  width: 350px;
+  max-height: 180px;
+  height: 150px;
+  display: block;
+  z-index: 2;
+  .info{
+    margin: 10px;
+    width: 80%;
+    overflow: hidden;
+    word-wrap: break-word;
+    h1, h2, h3, h4, h5, h6 {
+      text-transform: uppercase;
+			margin-left: 5px;
+			font-size: 25px;
+			font-weight: bold;
+			color: rgb(252, 0, 0);
+		}
+    p {
+			font-size: 13px;
+			margin: 5px;
+		}
+  }
+  a {
+		position: absolute;
+		bottom: 12px;
+		left: 15px;
+		padding: 8px;
+		background: black;
+		color: white;
+		outline: 0;
+		border: 0;
+		cursor: pointer;
+		text-decoration: none;
+		text-transform: uppercase;
+		transition: background 0.3s ease-in-out;
+		
+		&:hover, &:focus {
+			background: #343436;
+		}
+	}
+	.close{
+		font-size: 20px;
+		position: absolute;
+		top: 2px;
+		right: 15px;
+		cursor: pointer;
+		transition: text-shadow 0.2s;
+    background: transparent;
+    border: 0;
+		
+		&:hover {
+			text-shadow: 0 3px 2px gray;
+		}
+	}
+}
+
 .header-index {
   min-height: 90vh;
   width: 100%;
@@ -495,6 +561,10 @@ li {
 }
 .program ul {
   list-style: disc;
+}
+
+.strikeoff{
+  text-decoration: line-through;
 }
 @media (max-width: 800px) {
   .program h1 {

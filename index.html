@@ -21,7 +21,15 @@
     />
   </head>
 
-  <body>
+  <body>  
+    <div class="popup" id="popup">
+      <button class="close" onclick="closeAd()">x</button>
+      <div class="info">
+        <h3>Registrations Open</h3>
+        <p>Registrations close on 27th March</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScUptzTT1Xbnh3zVys332WGDT_HxKDU2bf83x-aH5FN4sK3Xw/viewform?usp=sf_link">Click Here to Register</a>
+      </div>
+    </div>
     <section class="header-index">
       <nav>
         <div class="logo">
@@ -170,10 +178,10 @@
                                            
         <li><b>Conference Co-Coordinators</b>:  <br> Dr. Akhilesh Kumar <br>
                                       Ar. Meet Fatewar <br>
-                                      Ar. Deeksha Singh <br>
-                                      Ar. Purnima Verma <br></li>
-        <li><b>Technical Committee Coordinators</b>: <br> Dr. Ashutosh Joshi
-                                        <br>Ar. Deeksha Singh</li>
+                                      Ar. Purnima Verma <br>
+                                    Ar. Udita Devrani</li>
+        <li><b>Technical Committee Coordinators</b>: <br> Dr. Ashutosh Joshi <br>
+                                        Ar. Udita Devrani</li>
         <li><b>Finance & Sponsorship Coordinators</b>: <br>Ar. Jitendra Sarohi
                                         <br>Dr. Aanchal Sharma</li>
         <li><b>Publicity Coordinators</b>: <br>Ms. Pariniti Singh<br>
@@ -244,6 +252,11 @@
 
       function hideMenu() {
         navLinks.style.right = "-200px";
+      }
+
+      function closeAd(){
+        var popup = document.getElementById("popup");
+        popup.style.display = 'none';
       }
     </script>
   </body>
