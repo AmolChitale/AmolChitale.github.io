@@ -354,6 +354,14 @@ li {
   padding: 2px;
 }
 
+.publishing-partners{
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  padding-top: 50px;
+  font-size: 18px;
+}
+
 .internation-advisory-committee {
   width: 80%;
   margin: auto;
@@ -579,8 +587,8 @@ li {
   padding-top: 30px;
 }
 
-.registration h1{
-  font-size: 2rem;
+.registration h2{
+  font-size: 1.75rem;
   padding-bottom: 10px;
 }
 
