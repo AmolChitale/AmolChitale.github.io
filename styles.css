@@ -582,6 +582,9 @@ li {
 .registration h1{
   font-size: 2rem;
   padding-bottom: 10px;
+}
+
+.blinker{
   color: red;
   animation: blinker 1.5s linear infinite;
 }
