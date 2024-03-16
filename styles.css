@@ -359,8 +359,11 @@ li {
   margin: auto;
   justify-content: center;
   padding-top: 50px;
-  font-size: 18px;
+  h2{
+    font-size: 16px;
+  }
 }
+
 
 .internation-advisory-committee {
   width: 80%;
